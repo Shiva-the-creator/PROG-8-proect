@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Programmer Mmentor</title>
+        <link rel="stylesheet" href="stylesheet.css"> 
+        <link rel="stylesheet" href="C:/Users/user/Desktop/my project/css/all.css">
+        <link rel="stylesheet" href="responsive.css">    
+    </head>
+    <body>
+        <header>
+            <div class="container">
+              <div class="header-left">
+                <img  class="main-logo" src="C:/Users/user/Downloads/icons8-laptop-coding-50.png">
+              </div>
+              <div class="navbar">
+                <a href="#home">Home</a>
+                <div class="subnav">
+                  <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="#company">Company</a>
+                    <a href="#team">Team</a>
+                    <a href="#careers">Careers</a>
+                  </div>
+                </div>
+                <div class="subnav">
+                  <button class="subnavbtn">Competitions <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="#bring">Beginner</a>
+                    <a href="#deliver">Intermediate</a>
+                    <a href="#package">Professional</a>
+                    <a href="#express">Miscellaneous</a>
+                    
+                  </div>
+                </div>
+                <div class="subnav">
+                  <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="#link1">Google</a>
+                    <a href="#link2">Microsoft</a>
+                    <a href="#link3">MIT</a>
+                    <a href="#link4">IBM</a>
+                  </div>
+                </div>
+                <a href="#contact">Contact</a>
+              </div>
+            </div>
+          </header>
+          <div class="top-wrapper">
+            <div class="container">
+              <h1>Welcome To MODERN ERA OF PROGRAMMING.</h1>
+              <h1> We believe Programs are the fun to play with.</h1>
+              <p>Progammer Mentor is only place where you can have learning and fun side by side.</p>
+              <p>We gather all compititions regarding programming here at one place.</p>
+                <div class="btn-wrapper">
+                 <button class="btn signup" onclick="document.getElementById('id01').style.display='block'">Signup with Email</button>
+                 <!--The modal-->
+                 <div id="id01" class="modal">
+                   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <!--Modal content-->
+                    <form action="/action_page.php" class="modal-content animate">
+                      <div class="imagecontainer">
+                        <img src="images\pngtree-male-student-icon-png-image_3728104.jpg" alt="Avatar" class="avatar">
+                      </div>
+                      <div class="container1">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <button type="submit" class="btn login">Login</button>
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember">Remember me
+                        </label> 
+                      </div>
+                      <div class="container1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                      </div>
+                    </form>
+                 </div>
+                  <p>or</p>
+                  <a href="#" class="btn facebook"><span><i class="fab fa-facebook"></i></span>Sign up with facebook</a>
+                  <a href="#" class="btn twitter"><span><i class="fab fa-twitter"></i></span>Sign up with twitter</a>
+                </div>
+            </div>
+          </div>
+          <div class="Courses">
+            <div class="conatiner">
+              <div class="heading">
+                <h2>Courses In Demand</h2>
+              </div>
+              <div class="course">
+                <div class="course-icon">
+                  <img class="logo" src="C:/Users/user/Desktop/my project/images/ai.png">
+                </div>
+                <h2> ARTIFICIAL INTELLIGENCE (AI)</h2>
+                <p> Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems.
+                   Specific applications of AI include expert systems, natural language processing (NLP), speech recognition and machine vision.</p>
+              </div>
+              <div class="course">
+                <div class="course-icon">
+                  <img class="logo" src="C:/Users/user/Desktop/my project/images/aVT5kl.jpg">
+                </div>
+                <h2>ETHICAL HACKING</h2>
+                <p>Ethical hacking involves penetration testing in that the networking expert methodically attempts to penetrate 
+                  a network or computer system as a service to the owner of the system to find security vulnerabilities that a 
+                  malevolent hacker may be able to exploit.</p>
+              </div>
+                <div class="course">
+                  <div class="course-icon"> 
+                    <img class="logo" src="C:/Users/user/Desktop/my project/images/pythonlogo.png">
+                  </div>
+                  <h2>Learn Python for DATA SCIENCE.</h2>
+                  <p> Python excels when it comes to scalability. It's also faster than languages like Matlab and Stata. 
+                    It facilitates scale because it gives data scientists flexibility and multiple ways to approach different problems—one of the reasons 
+                    why YouTube migrated to the language.</p>
+                </div>
+              </div>
+              </div>
+              <div class="testimonial-panel">
+                <div class="heading">
+                  <h2>Testimonials</h2>
+                </div>
+                <div class="container">
+                  <div class="testimonial">
+                    <img src="C:/Users/user/Desktop/my project/images/sunderpichai.jpg" alt="avatar" style="width:90px">
+                    <p><span>Sunder Pichai</span>CEO at Google<i class="fas fa-google"></i></p>
+                    <p>ProgrammerMentor is really good place where Professionals 
+                      as well as Beginner everyone get a chance to prove himself</p>
+                  </div>
+                  <div class="testimonial">
+                    <img src="C:/Users/user/Desktop/my project/images/billgates.jpg" alt="avatar" style="width:90px">
+                    <span>Bill-Gates</span>CEO at Microsoft</p>
+                    <p>This site is phenomenon.I enjoyed learning from this. I believe that
+                      if this could have done a decade before there will no vacancies in DATA SCIENCIES 
+                      field.
+                      </p>
+                  </div>
+                  <div class="testimonial">
+                    <img src="C:/Users/user/Desktop/my project/images/jeffbezos.png" alt="avatar" style="width:90px">
+                    <p><span>Jeff Bezos</span>CEO at Amazon</p>
+                    <p>ProgrammerMentor trains you to such a level that within the completion
+                      of your course you will be able to create your own start-ups
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <p><i class="fab fa-user"></i></p>
+                    <h3>11+</h3>
+                    <p>Partners</p>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <p><i class="fab fa-check"></i></p>
+                    <h3>55+</h3>
+                    <p>Projects</p>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <p><i class="fab fa-smile-o"></i></p>
+                    <h3>100+</h3>
+                    <p>Happy Clients</p>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <p><i class="fab fa-coffee"></i></p>
+                    <h3>100+</h3>
+                    <p>Meetings</p>
+                  </div>
+                </div>
+              </div>
+              <video autoplay muted loop id="myVideo">
+                <source src="C:\Users\user\Desktop\my project\images\60 seconds to understand artificial intelligence.mp4" type="video/mp4">
+             </video>
+
+                <!-- Optional: some overlay text to describe the video -->
+                <div class="content">
+                   <h1>Artificial Intelligence</h1>
+                   <p>Here is a brief description about the Artifial Intellingence.This Tech is the need of the future </p>
+                    <!-- Use a button to pause/play the video with JavaScript -->
+                    <button id="myBtn" onclick="myFunction()">Pause</button>
+                  </div>
+              <div class="footer">
+                <div class="footer-content">
+                   <div class="footer-section about">
+                    <h1 class="logo-text"><span>Programmers</span>Mentor</h1>
+                    <p>
+                      ProgrammersMentor is website designed for coder to have 
+                      a real world exprience of thier codes.Our Aim is to make 
+                      India Self-Dependent
+                    </p>
+                    <div class="contact">
+                      <span><i class="fas fa-phone"></i> &nbsp: 7080-176-843</span>
+                      <span><i class="fas fa-envelope "></i> &nbsp: info@ProgrammersMentor.com</span>
+                    </div>
+                    <div class="socials">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                   </div>
+                   <div class="footer-section link">
+                     <h2>Quick Links</h2>
+                     <br>
+                     <ul>
+                        <a href="#">
+                          <li>Events</li>
+                        </a>
+                        <a href="#">
+                          <li>Team</li>
+                        </a>
+                        <a href="#">
+                          <li>Mentors</li>
+                        </a>
+                        <a href="#">
+                          <li>Gallery</li>
+                        </a>
+                        <a href="#">
+                          <li>Terms and Conditions</li>
+                        </a>
+                        </ul>
+                    </div>
+                   <div class="footer-section contact-form">
+                     <h2>Contact-us</h2>
+                     <form action="index.html" method="POST">
+                       <input type="email" name="email"class="text-input contact-input" placeholder="Your email address..">
+                       <textarea name="message" class="text-input contact-input" placeholder="Your Text Here......."></textarea>
+                        <button type="submit" class="btn-big">Send
+                          <i class="fas fa-envelope"></i>
+                        </button>
+                     </form>
+                   </div>  
+                  <div class="footer-bottom">
+                  &copy: programmator.com | Designed by Shiva Patel
+                  </div>
+                </div>
+                <script type="text/javascript" src="script.js"></script>
+            </div>
+           
+    </body>
+</html>
